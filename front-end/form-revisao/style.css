@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #222222;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form h1 {
+  margin-bottom: 2.5rem;
+  color: #eeeeee;
+}
+
+form .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+form .input label {
+  margin-bottom: .35rem;
+  color: #eeeeee;
+  font-weight: 700;
+}
+
+form .input input, form .input textarea {
+  margin: 0;
+  color: #fff;
+  padding: 1rem;
+  resize: none;
+  background: transparent;
+  outline: none;
+}
+
+form .enviar {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 1rem;
+  background: #eeeeee;
+}
+/*# sourceMappingURL=style.css.map */
